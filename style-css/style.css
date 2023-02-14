@@ -4,3 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-group{
+
+    list-style: none;
+}
+/* <i class="fa-solid fa-list-ul"></i>
+<i class="fa-solid fa-question"></i>
+<i class="fa-solid fa-ellipsis-vertical">
+<i class="fa-solid fa-bell"></i>
+<i class="fa-solid fa-magnifying-glass"></i>
+<i class="fa-solid fa-house"></i>
+<i class="fa-solid fa-signal"></i> 
+<i class="fa-solid fa-chart-simple"></i>*/
