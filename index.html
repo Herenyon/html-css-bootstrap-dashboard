@@ -30,59 +30,65 @@
 <body>
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <form class="d-flex" role="search">
-                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    
+        <nav class="navbar bg-body-tertiary">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand" href="#">
+                    <img src="img/mobile-logo.png" alt="Bootstrap" width="50" height="50">
+                </a>
+                <form class="" role="search">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1"><i
+                                class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
                 </form>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
+                <div id="navbarNav">
+                    <ul class="navbar-nav list-group list-group-horizontal ">
+                        <li class="nav-item me-4">
+                            <a class="nav-link active" aria-current="page" href="#"><i
+                                    class="fa-solid fa-list-ul"></i></a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item me-4">
                             <a class="nav-link" href="#"><i class="fa-solid fa-question"></i></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-bell"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Profilo</a></li>
-                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                                <li><a class="dropdown-item" href="#">Logout</a></li>
-                            </ul>
+                        <li class="nav-item me-4">
+                            <a class="nav-link"><i class="fa-solid fa-bell"></i></a>
                         </li>
                     </ul>
-                    
                 </div>
             </div>
+
         </nav>
-        
+
+
     </header>
     <main>
-        <section class="row">
+        <section class="row" style="background-color: aquamarine;">
+            <div class="col-2 ps-4">
+                <div class="container">
+                    <ul class="list-group">
+                        <li class="list-item"><i class="fa-solid fa-house"></i> Home</li>
+                        <li class="list-item"><i class="fa-solid fa-chart-simple"></i> Stats</li>
+                        <li class="list-item"><i class="fa-solid fa-signal"></i> Signals</li>
+                </div>
+                <div class="text-align-bottom">
+                    <i class="fa-solid fa-gear"></i> Admin
+                </div>
 
+            </div>
+            <div class="col-10" style="background-color: bisque;">
+                <div>
+
+                </div>
+
+            </div>
 
         </section>
-        <section>
-
-            
-        </section>
-
-
 
     </main>
 
